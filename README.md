@@ -3,11 +3,6 @@
 A practical, implementation-first repository for learning and practicing
 Data Structures and Algorithms with Python.
 
-The repository is organized as a progression rather than a collection of
-unrelated code samples. Each topic aims to connect:
-
-**Concept → Example → Implementation → Complexity → Tests → Practice**
-
 ---
 
 ## Learning Roadmap
@@ -98,22 +93,9 @@ Problem-Solving Patterns
 | Heap insert | O(log n) | O(1) auxiliary |
 | BFS / DFS | O(V + E) | O(V) |
 
-These are typical complexities; implementation details and input assumptions
-matter.
 
-## Quality Checklist
 
-For a completed topic, aim to have:
 
-- [ ] Explanation
-- [ ] Pseudocode
-- [ ] Implementation
-- [ ] Complexity analysis
-- [ ] Edge cases
-- [ ] Tests
-- [ ] Example
-- [ ] Practice problem
-- [ ] Short learning note
 
 ## Running Tests
 
