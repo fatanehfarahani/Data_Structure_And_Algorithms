@@ -58,24 +58,23 @@ Problem-Solving Patterns
 
 | Section | Focus |
 |---|---|
-| `00-foundations` | Complexity, recursion, problem-solving basics |
-| `01-arrays-and-strings` | Arrays, strings, common operations |
-| `02-linked-lists` | Singly and doubly linked lists |
-| `03-stacks-and-queues` | Stack, queue, deque, priority queue concepts |
-| `04-hashing` | Hash tables, sets, frequency counting |
-| `05-trees-and-heaps` | Trees, BSTs, heaps, traversals |
-| `06-graphs` | Graph representation and traversal |
-| `07-searching` | Linear and binary search |
-| `08-sorting` | Comparison and non-comparison sorting |
-| `09-recursion` | Recursive problem solving |
-| `10-divide-and-conquer` | Divide, solve, combine |
-| `11-greedy` | Locally optimal choices |
-| `12-backtracking` | Search with constraint-based undo |
-| `13-dynamic-programming` | Memoization, tabulation, state design |
-| `14-problem-solving` | Reusable interview/problem-solving patterns |
+| `foundations` | Complexity, recursion, problem-solving basics |
+| `arrays-and-strings` | Arrays, strings, common operations |
+| `linked-lists` | Singly and doubly linked lists |
+| `stacks-and-queues` | Stack, queue, deque, priority queue concepts |
+| `hashing` | Hash tables, sets, frequency counting |
+| `trees-and-heaps` | Trees, BSTs, heaps, traversals |
+| `graphs` | Graph representation and traversal |
+| `searching` | Linear and binary search |
+| `sorting` | Comparison and non-comparison sorting |
+| `recursion` | Recursive problem solving |
+| `divide-and-conquer` | Divide, solve, combine |
+| `greedy` | Locally optimal choices |
+| `backtracking` | Search with constraint-based undo |
+| `dynamic-programming` | Memoization, tabulation, state design |
+| `problem-solving` | Reusable interview/problem-solving patterns |
 | `tests` | Automated checks |
-| `progress` | Learning record |
-| `resources` | References and study material |
+
 
 ## Complexity Cheat Sheet
 
