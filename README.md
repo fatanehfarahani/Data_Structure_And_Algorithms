@@ -1,21 +1,143 @@
-# Data_Structure_Algorithms
+# Data Structures & Algorithms
 
-Welcome to # Data_Structure_Algorithms - A Journey Through Data Structures and Algorithms
+A practical, implementation-first repository for learning and practicing
+Data Structures and Algorithms with Python.
 
-👋 Hello, fellow coders! This is # Data_Structure_Algorithms, and you've just stumbled upon my treasure trove of knowledge on data structures and algorithms. This repository is not just a collection of code; it's a chronicle of my adventure through the intricate world of computer science.
+The repository is organized as a progression rather than a collection of
+unrelated code samples. Each topic aims to connect:
 
-## Unraveling the Mysteries of Data Structures
+**Concept → Example → Implementation → Complexity → Tests → Practice**
 
-Data structures are the backbone of any software application. They are the ingenious methods we use to store and organize data. Here, you'll find everything from the humble array to the mighty binary tree, each with its own set of superpowers. Whether you're looking to understand the basics or dive deep into complex structures, this is your one-stop-shop.
+---
 
-## What are Algorithms?
+## Learning Roadmap
 
-Algorithms are the step-by-step strategies for solving problems. They're like the secret recipes that make our data dance. In this repository, I share my implementations and insights on classic algorithms, from sorting and searching to graph traversals and dynamic programming.
+```text
+Foundations
+   │
+   ├── Complexity
+   ├── Recursion
+   └── Problem Solving
+   │
+   ▼
+Linear Data Structures
+   │
+   ├── Arrays & Strings
+   ├── Linked Lists
+   ├── Stacks
+   └── Queues
+   │
+   ▼
+Hashing
+   │
+   ▼
+Trees & Heaps
+   │
+   ▼
+Graphs
+   │
+   ▼
+Searching & Sorting
+   │
+   ▼
+Algorithmic Paradigms
+   │
+   ├── Divide & Conquer
+   ├── Greedy
+   ├── Backtracking
+   └── Dynamic Programming
+   │
+   ▼
+Problem-Solving Patterns
+   │
+   ├── Two Pointers
+   ├── Sliding Window
+   ├── Prefix Sum
+   ├── Hashing
+   ├── Stack Patterns
+   ├── Tree Traversal
+   └── Graph Traversal
+```
 
-## Why This Repository?
+## Repository Structure
 
-- Learn and Grow: Whether you're a beginner or an experienced developer, there's something here for you.
-- Practical Examples: See data structures and algorithms in action with real-world examples.
-- Open Collaboration: Contributions are welcome! Let's learn from each other and make this resource better for everyone.
+| Section | Focus |
+|---|---|
+| `00-foundations` | Complexity, recursion, problem-solving basics |
+| `01-arrays-and-strings` | Arrays, strings, common operations |
+| `02-linked-lists` | Singly and doubly linked lists |
+| `03-stacks-and-queues` | Stack, queue, deque, priority queue concepts |
+| `04-hashing` | Hash tables, sets, frequency counting |
+| `05-trees-and-heaps` | Trees, BSTs, heaps, traversals |
+| `06-graphs` | Graph representation and traversal |
+| `07-searching` | Linear and binary search |
+| `08-sorting` | Comparison and non-comparison sorting |
+| `09-recursion` | Recursive problem solving |
+| `10-divide-and-conquer` | Divide, solve, combine |
+| `11-greedy` | Locally optimal choices |
+| `12-backtracking` | Search with constraint-based undo |
+| `13-dynamic-programming` | Memoization, tabulation, state design |
+| `14-problem-solving` | Reusable interview/problem-solving patterns |
+| `tests` | Automated checks |
+| `progress` | Learning record |
+| `resources` | References and study material |
 
-So, let's gear up and get ready to explore the fascinating universe of data structures and algorithms. Happy coding!
+## Complexity Cheat Sheet
+
+| Structure / Algorithm | Typical Time | Extra Space |
+|---|---:|---:|
+| Array access | O(1) | O(1) |
+| Linear search | O(n) | O(1) |
+| Binary search | O(log n) | O(1) iterative |
+| Hash lookup | O(1) average | O(n) |
+| Stack push/pop | O(1) | O(n) |
+| Queue enqueue/dequeue | O(1) | O(n) |
+| Linked-list search | O(n) | O(1) |
+| Merge sort | O(n log n) | O(n) |
+| Quick sort | O(n log n) average | O(log n) average recursion |
+| Heap insert | O(log n) | O(1) auxiliary |
+| BFS / DFS | O(V + E) | O(V) |
+
+These are typical complexities; implementation details and input assumptions
+matter.
+
+## Quality Checklist
+
+For a completed topic, aim to have:
+
+- [ ] Explanation
+- [ ] Pseudocode
+- [ ] Implementation
+- [ ] Complexity analysis
+- [ ] Edge cases
+- [ ] Tests
+- [ ] Example
+- [ ] Practice problem
+- [ ] Short learning note
+
+## Running Tests
+
+From the repository root:
+
+```bash
+python -m pytest
+```
+
+If pytest is not installed:
+
+```bash
+python -m pip install pytest
+```
+
+## Progress
+
+See:
+
+- `progress/roadmap.md`
+- `progress/learning-log.md`
+
+## Note
+
+This is a learning repository. Implementations are intentionally kept readable
+so that the underlying algorithm can be studied rather than hidden behind
+large libraries.
