@@ -110,15 +110,3 @@ If pytest is not installed:
 python -m pip install pytest
 ```
 
-## Progress
-
-See:
-
-- `progress/roadmap.md`
-- `progress/learning-log.md`
-
-## Note
-
-This is a learning repository. Implementations are intentionally kept readable
-so that the underlying algorithm can be studied rather than hidden behind
-large libraries.
